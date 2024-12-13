@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Image Voting</title>
+</head>
+<body>
+    <section class="HeaderWrapper">
+        <h1>Image Voting</h1>
+    </section>
+
+    <section class="ImageVoteWrapper">
+        <div class="vote">
+            <h4>Would you hang this piece in your room?</h4>
+            <button onclick="vote('yes')">👍 Yes!</button>
+            <button onclick="vote('no')">👎 No</button>
+        </div>
+        <div class="imageView">
+            <img id="currentImage" src="" alt="Image Here!" hidden>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
